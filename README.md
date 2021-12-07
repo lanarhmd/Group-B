@@ -13,18 +13,18 @@ b. Group Member Details (Name & Matric No)
 c. The assigned tasks for each group member
 
 Html,css and php 
- 1. Nur Afiqah binti Mohd Rosli :Login page
- 2. Julyana binti Rahmad	:Login page
- 3. Nur Ameliene Lee		:Main page
- 4. Nurharith Akma binti Harisa	:About us page
- 5. Mastura binti Mohamad Rizal :Reservation form page
+ 1. Nur Afiqah binti Mohd Rosli (Login page)
+ 2. Julyana binti Rahmad (Login page)
+ 3. Nur Ameliene Lee (Main page)
+ 4. Nurharith Akma binti Harisa (About us page)
+ 5. Mastura binti Mohamad Rizal (Reservation form page)
 
 reservelib.php 
-1. Nurharith Akma binti Harisa  :connect to database
-2. Nur Afiqah binti Mohd Rosli  :close database connection, save reservation and database entry
-3. Julyana binti Rahmad  	:Email andget reservations
-4. Nur Ameliene Lee 		:get entries,Database setting, New resevation object
-5. Mastura binti Mohamad Rizal  :Reserveform.php
+1. Nurharith Akma binti Harisa (connect to database)
+2. Nur Afiqah binti Mohd Rosli (close database connection, save reservation and database entry)
+3. Julyana binti Rahmad (email and get reservations)
+4. Nur Ameliene Lee (get entries, database setting, new resevation object)
+5. Mastura binti Mohamad Rizal (Reserveform.php)
 
 d. Brief Description of the case study
 
