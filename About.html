@@ -1,0 +1,213 @@
+<!--(NURHARITH AKMA BT HARISA 1910110)-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>About Us</title>
+  </head>
+
+  <style media="screen">
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(backgrounds.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: beige;
+  }
+
+  .navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 120px;
+    cursor: pointer;
+  }
+
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  }
+
+  .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+
+  .navbar ul li:hover::after {
+    width: 100%;
+  }
+  .about-section {
+    padding: 50px;
+    font-size: 37px;
+    text-align: center;
+    color: white;
+  }
+
+  .card {
+    background-color: #474e5d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+
+  .container {
+    padding: 0 16px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+  }
+
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .title {
+    color: grey;
+  }
+
+  .about-section {
+    padding: 10px;
+    font-size: 37px;
+    text-align: center;
+    color: white;
+  }
+
+  .container {
+    padding: 64px;
+  }
+
+  .column1 {
+    float: left;
+    width: 60%;
+    padding: 20px;
+  }
+
+  .column2 {
+    float: left;
+    width: 40%;
+    padding: 20px;
+  }
+
+  .large-font {
+    font-size: 48px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+
+    .column1, .column2 {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+
+  </style>
+  <body>
+
+  <div class="banner">
+        <div class="navbar">
+            <img src="logorv.png" class="logo" alt="logo">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+              </ul>
+  </div>
+
+  <div class="about-section">
+    <h1>ABOUT US</h1>
+  </div>
+
+<!-- First Section -->
+    <div class="container" style="background-color:#D3E4CD">
+  <div class="row">
+    <div class="column1">
+      <h1 class="large-font" style="color:MediumSeaGreen;"><b>Background</b></h1> <br>
+      <p>Illiyyin Space is an event space provider establish since 2015. Make your dream event come true here with the perfect venue space for
+        your any kind of occasion! We are located at the heart Kuala Lumpur. We promise that we will give you a unique and
+        extraordinary event experience and creatively crafted and individually designed for you.
+        </p>
+    </div>
+    <div class="column2">
+        <img src="pelamin.jpeg" width="400" height="300">
+    </div>
+  </div>
+</div>
+
+<!-- Second Section -->
+<div class="container" style="background-color:#f1f1f1">
+  <div class="row">
+    <div class="column2">
+      <img src="birthday.jpg" alt="App" width="400" height="300">
+    </div>
+    <div class="column1">
+      <h1 class="large-font" style="color:black;"><b> What we do ? </b></h1> <br>
+      <p> We provide an event space for you, to host your occasions such as <br><br>
+        <ul>
+          <li>Wedding</li>
+          <li>Birthday Party</li>
+          <li>Meeting</li>
+          <li>Seminar</li>
+          <li>Exhibition and many more!</li>
+       </ul>
+     </p>
+    </div>
+  </div>
+</div>
+
+<!-- Third Section -->
+<div class="container" style="background-color:#D3E4CD">
+  <div class="row">
+    <div class="column1">
+      <h1 class="large-font" style="color:MediumSeaGreen;">For booking <br> contact us now!</b></h1> <br>
+      <p> We happy to collabrate with you.</p>
+    </div>
+    <div class="column2">
+        <img src="seminar.jpg" width="400" height="300" >
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+  </body>
+</html>

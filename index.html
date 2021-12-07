@@ -1,0 +1,221 @@
+<!--(NUR AMELIENE LEE 1912216)-->
+
+<html>
+  <head>
+    <title>Home</title>
+  <style media="screen">
+
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  .banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(backgrounds.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: beige;
+  }
+
+  .navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 120px;
+    cursor: pointer;
+  }
+
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  }
+
+  .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+
+  .navbar ul li:hover::after {
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+  }
+
+  .content h1 {
+    font-size: 70px;
+    margin-top: 80px;
+  }
+
+  .content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+  }
+
+  button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  span {
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+  }
+
+  button:hover span {
+    width: 100%;
+  }
+
+  button:hover {
+    border: none;
+  }
+
+  div.gallery {
+    margin: 10px;
+    margin-top: 0;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 600px;
+    padding-top: 50px;
+  }
+
+  div.gallery:hover {
+    border: 2px solid #009688;
+  }
+
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  div.desc {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .events {
+    background-color: #D3E4CD;
+  }
+  </style>
+  </head>
+  <body>
+<div class="banner">
+  <div class="navbar">
+      <img src="logorv.png" class="logo" alt="logo">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About Us</a></li>
+        </ul>
+  </div>
+    <div class="content">
+      <h1>Illiyyin Space</h1>
+      <p>Book with us for an amazing experience, <br> Press below button for more information.</p>
+        <div>
+          <a href="reserveform.php">
+          <button type="button"><span></span>BOOK NOW</button>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+<div class="events">
+<div class="gallery">
+  <a target="_blank" href="birthday.jpg">
+    <img src="birthday.jpg" alt="Birthday" width="600" height="400">
+  </a>
+  <div class="desc">Birthday Celebration</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="meeting.jpg">
+    <img src="meeting.jpg" alt="Meeting" width="600" height="400">
+  </a>
+  <div class="desc">Company Meeting</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="corparate.jpg">
+    <img src="corparate.jpg" alt="Corparate" width="600" height="400">
+  </a>
+  <div class="desc">Corparate event</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="seminar.jpg">
+    <img src="seminar.jpg" alt="Seminar" width="600" height="400">
+  </a>
+  <div class="desc">Seminar Event</div>
+</div>
+
+
+</div>
+</div>
+
+
+  </div>
+</div>
+
+  </body>
+</html>
