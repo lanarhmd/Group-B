@@ -26,7 +26,7 @@ reservelib.php
 		   			- Database entry 
 	- Julyana binti Rahmad  	- Email
 		   			- get reservations 
-  - Nur Ameliene Lee 		- get entries
+  	- Nur Ameliene Lee 		- get entries
 		   			- Database setting
 		   			- New resevation object 
 	- Mastura binti Mohamad Rizal   - Reserveform.php 
