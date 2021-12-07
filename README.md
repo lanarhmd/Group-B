@@ -9,10 +9,7 @@ b. Group Member Details (Name & Matric No)
   5. Julyana binti Rahmad (1912068)
 
 c. The assigned tasks for each group member
-  1) Select venue, date, time (8-5) , type event - Mastura/Ameliene
-  2) Detail booking ( Name, phone, email, Ic)  - Afiqah
-  3) confirmation booking (receipt) - Akma
-  4) Connect  to mysql php  & compile -Julyana
+  
 
 d. Brief Description of the case study
 Event Management System: Simple Reservation System with PHP MySQL 
